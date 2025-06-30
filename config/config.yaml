@@ -2,8 +2,8 @@ listen: :443
 protocol: udp
 
 tls:
-  cert: /etc/letsencrypt/live/vpn.example.com/fullchain.pem
-  key: /etc/letsencrypt/live/vpn.example.com/privkey.pem
+  cert: /etc/letsencrypt/live/aws.4g-internet.info.vn/fullchain.pem
+  key: /etc/letsencrypt/live/aws.4g-internet.info.vn/privkey.pem
   alpn:
     - h3
     - h2
